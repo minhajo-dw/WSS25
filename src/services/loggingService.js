@@ -1,7 +1,7 @@
 // loggingService.js
 
 import { ChannelType } from 'discord.js';
-import { getGuildConfig, updateGuildConfig } from './guildConfig.js';
+import { getGuildConfig, updateGuildConfig } from './config/guildConfig.js';
 import { logger } from '../utils/logger.js';
 import {
   appendContentSection,

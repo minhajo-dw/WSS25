@@ -1,6 +1,6 @@
 import { logger } from '../utils/logger.js';
 import { getReactionRoleKey } from '../utils/database/keys.js';
-import { getGuildConfig, setGuildConfig, patchGuildConfig } from './guildConfig.js';
+import { getGuildConfig, setGuildConfig, patchGuildConfig } from './config/guildConfig.js';
 import {
     getTicketPanelStatus,
     getVerificationPanelStatus,

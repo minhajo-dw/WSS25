@@ -1,6 +1,6 @@
 // commandAccessService.js
 
-import { getGuildConfig, updateGuildConfig } from './guildConfig.js';
+import { getGuildConfig, updateGuildConfig } from './config/guildConfig.js';
 import {
   normalizeCategoryKey,
   formatCategoryName,
