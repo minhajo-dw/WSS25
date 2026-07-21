@@ -11,7 +11,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "dnd",
+    status: "idle",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "playing VI", // required by Discord API, not shown in the client
+        name: "", // required by Discord API, not shown in the client
         state: "nonchalant",     // this is what people actually see
-        type: 0,
+        type: 4,
       },
     ],
   },
